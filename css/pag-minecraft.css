@@ -92,6 +92,9 @@ footer a.dicas {
 footer a.encantamentos {
     color: purple;
 }
+footer a.craftings{
+    color: blue;
+}
 
 footer a.tutorial:hover {
     color: white;
@@ -102,6 +105,9 @@ footer a.dicas:hover {
 }
 
 footer a.encantamentos:hover {
+    color: white;
+}
+footer a.craftings:hover{
     color: white;
 }
 
