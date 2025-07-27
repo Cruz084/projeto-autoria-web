@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    
+}
+@font-face {
+    font-family: 'Minecraft';
+    src: url(fonte/Minecraftia-Regular.ttf) format('truetype');
+}
+body{
+    margin: 0;
+    font-family: 'Minecraft', sans-serif;
+    background-color: #1c1c1c;
+    margin-bottom: 15px;
+
+    
+
+}
+h1{
+    font-size: 50px;
+    color: white;
+    
+
+}
+h2{
+    color: darkolivegreen;
+}
+h3{
+    color:darkolivegreen;
+}
+.topo{
+    background-color: darkolivegreen;
+    padding: 15px;
+    text-align: left;
+    margin-top: 0;
+}
+.menu{
+    background-color: rgb(57, 71, 32);
+    padding: 15px;
+
+}
+.menu a {
+    color: white;
+}
+p {
+    color: white;
+}
+ul{
+    color: white;
+}
+th, td{
+    text-align: center;
+    color: white;
+}
+li {
+    color: darkolivegreen;
+}
+#descricao-video {
+    text-align: right;
+}
+b {
+    color: darkolivegreen;
+}
+footer{
+    background-color:rgb(44, 44, 44);
+    padding: 15px;
+    margin: 0;
+
+}
+footer a.tutorial{
+    color: rgb(128, 90, 64);
+}
+#alunos{
+    color: red;
+}
