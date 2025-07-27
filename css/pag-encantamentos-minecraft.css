@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+
+}
+
+@font-face {
+    font-family: 'Minecraft';
+    src: url(../fonte/Minecraftia-Regular.ttf) format('truetype');
+}
+
+body {
+    margin: 0;
+    font-family: 'Minecraft', sans-serif;
+    background-color: #1c1c1c;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+}
+
+.topo {
+    background-color: purple;
+    padding: 15px;
+    text-align: left;
+    margin-top: 0;
+}
+
+.menu {
+    background-color: rgb(55, 0, 77);
+    padding: 15px;
+
+}
+
+.menu a {
+    color: white;
+}
+
+h2 {
+    color: purple;
+}
+
+ul {
+    color: rgb(252, 252, 252);
+}
+
+p {
+    color: white;
+}
+
+footer {
+    background-color: rgb(44, 44, 44);
+    padding: 15px;
+    margin: 0;
+}
+
+.rodape a {
+    color: darkolivegreen;
+}
+
+footer a.volte:hover {
+    color: white;
+}

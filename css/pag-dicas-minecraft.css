@@ -1,52 +1,64 @@
 * {
     box-sizing: border-box;
-    
+
 }
+
 @font-face {
     font-family: 'Minecraft';
-    src: url(fonte/Minecraftia-Regular.ttf) format('truetype');
+    src: url(../fonte/Minecraftia-Regular.ttf) format('truetype');
 }
-body{
+
+body {
     margin: 0;
     font-family: 'Minecraft', sans-serif;
     background-color: #1c1c1c;
     margin-bottom: 15px;
 }
-h1{
+
+h1 {
     font-size: 50px;
     color: white;
 }
-.topo{
-    background-color: rgb(128, 90, 64);
+
+.topo {
+    background-color: #fda300;
     padding: 15px;
     text-align: left;
     margin-top: 0;
 }
-.menu{
-    background-color: rgb(51, 36, 33);
+
+.menu {
+    background-color: rgb(161, 105, 0);
     padding: 15px;
 
 }
+
 .menu a {
     color: white;
 }
-h2{
-    color: rgb(51, 36, 33);
+
+h2 {
+    color: #fda300;
 }
-p{
+
+p {
     color: white;
 }
-ol{
-    color: rgb(128, 90, 64);
+
+ul {
+    color: rgb(161, 105, 0);
 }
-ul{
-    color: rgb(128, 90, 64);
-}
-footer{
-    background-color:rgb(44, 44, 44);
+
+footer {
+    background-color: rgb(44, 44, 44);
     padding: 15px;
     margin: 0;
 }
-.rodape a{
+
+.rodape a {
     color: darkolivegreen;
+}
+
+footer a.volte:hover {
+    color: white;
 }
