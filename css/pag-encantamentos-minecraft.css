@@ -62,3 +62,9 @@ footer {
 footer a.volte:hover {
     color: white;
 }
+.materiais:hover{
+    color: purple;
+}
+.passo:hover{
+    color: purple;
+}
